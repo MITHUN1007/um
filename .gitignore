@@ -1,41 +1,24 @@
-**/*.swp
-**/.idea/libraries/Generated_files.xml
-**/.idea/sqldialects.xml
-**/.idea/workspace.xml
-# Local .terraform directories
-**/.terraform/*
-**/.vscode/
-**/api/temp
-**/api/tsc
-*.pyc
-# .tfstate files
-*.tfstate
-*.tfstate.*
-.DS_Store
-.cache
-.cache-loader/
-.direnv
-.env
-.eslintcache
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
 .idea
-.ipynb_checkpoints/
-.venv/
-/.direnv/
-**/.terraform/*
-*.tfstate
-*.tfstate.*
-.terragrunt-cache/
-**/backend.tf
-.terraform
-# Typedoc output
-/platform/sub/typedoc-*/
-/platform/sub/typedoc.json
-/platform/sub/typedoc.json.gz
-/platform/sub/typedoc/
-bower_components/
-node_modules/
-storybook-static/
-.nx/
-# ignore decrypted yaml files by sops
-*.dec.*
-dist/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
